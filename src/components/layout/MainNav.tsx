@@ -19,21 +19,21 @@ export default function Component() {
 					Home
 				</Link>
 				<Link
-					href='#'
+					href='/projects'
 					className='text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50'
 					prefetch={false}
 				>
 					Projects
 				</Link>
 				<Link
-					href='#'
+					href='/about'
 					className='text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50'
 					prefetch={false}
 				>
 					About
 				</Link>
 				<Link
-					href='#'
+					href='/contact'
 					className='text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50'
 					prefetch={false}
 				>

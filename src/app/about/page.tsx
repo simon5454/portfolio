@@ -2,10 +2,10 @@ import MainNav from '@/components/layout/MainNav';
 import { Metadata } from 'next/types';
 
 export const metadata: Metadata = {
-	title: 'Simon Ritchot | Home',
+	title: 'Simon Ritchot | About',
 };
 
-export default function Home() {
+export default function About() {
 	return (
 		<main>
 			<MainNav />
