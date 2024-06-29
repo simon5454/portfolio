@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Component() {
 	return (
-		<header className='flex h-16 w-full items-center justify-between px-4 md:px-6'>
+		<header className='flex h-16 w-full items-center justify-between px-4 md:px-6 bg-colorPalette-blackWash text-colorPalette-tokyoUnderground'>
 			<Link href='/' className='flex items-center gap-2' prefetch={false}>
 				<Image src='/favicon/favicon-32x32.png' width={32} height={32} alt='logo' />
 				<span className='sr-only'>Acme Inc</span>
@@ -40,7 +40,11 @@ export default function Component() {
 					Contact
 				</Link>
 
-				<Button variant='default' size='icon' className='w-full p-3'>
+				<Button
+					variant='default'
+					size='icon'
+					className='w-full p-3 bg-colorPalette-tokyoUnderground text-colorPalette-blackWash'
+				>
 					Download CV
 				</Button>
 			</nav>
